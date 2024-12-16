@@ -17,12 +17,12 @@ public class AgenziaViaggi {
 
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<GestoreTrasporti> gestoreTrasportiList = new ArrayList<GestoreTrasporti>();
-        Bus b1 = new Bus("EE745TO");
-        Bus b2 = new Bus("ZZ445TR");
-        Bus b3 = new Bus("GV345TH");
-        Rivenditore_biglietti rv1 = new Rivenditore_biglietti("Mirka");
-        Rivenditore_biglietti rv2 = new Rivenditore_biglietti("James");
-        Rivenditore_biglietti rv3 = new Rivenditore_biglietti("Liliana");
+//        Bus b1 = new Bus("EE745TO");
+//        Bus b2 = new Bus("ZZ445TR");
+//        Bus b3 = new Bus("GV345TH");
+//        Rivenditore_biglietti rv1 = new Rivenditore_biglietti("Mirka");
+//        Rivenditore_biglietti rv2 = new Rivenditore_biglietti("James");
+//        Rivenditore_biglietti rv3 = new Rivenditore_biglietti("Liliana");
         Traghetto t= new Traghetto("GT675HJK");
         StringBuilder s= new StringBuilder();
         gestoreTrasportiList.add(new GestoreTrasporti("francesi", b1, rv1, t, s));
